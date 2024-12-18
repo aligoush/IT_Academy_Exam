@@ -11,7 +11,7 @@ import utils.IDGenerator;
 import java.util.List;
 
 public class InventoryManager {
-    Inventory<BoardGames> inventory;
+    public Inventory<BoardGames> inventory;
     public InventoryManager() {
         this.inventory = new Inventory<>();
     }

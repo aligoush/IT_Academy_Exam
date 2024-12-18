@@ -12,7 +12,7 @@ import utils.InputUtils;
 import java.util.Scanner;
 
 public class Menu {
-    InventoryManager inventoryManager;
+    public InventoryManager inventoryManager;
 
     public Menu() {
         this.inventoryManager = new InventoryManager();
